@@ -391,7 +391,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
     </label>
   </div>
 
-  <h1>Guest WiFi Access</h1>
+  <h1>ICI WiFi Voucher Generator</h1>
   <p class="subhead">Generate a voucher code for a guest in a few seconds.</p>
 
   <div class="panel">
