@@ -27,7 +27,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ICI — Wifi Voucher Generator</title>
+<title>Guest WiFi Access — Voucher Generator</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
@@ -383,7 +383,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
 
 <div class="page">
   <div class="topbar">
-    <div class="eyebrow"><span class="dot"></span> ICI Network Access Dashboard</div>
+    <div class="eyebrow"><span class="dot"></span> Network Access Desk</div>
     <label class="theme-switch" for="themeToggle" aria-label="Toggle dark mode">
       <input type="checkbox" id="themeToggle">
       <span class="switch-track"></span>
@@ -391,7 +391,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
     </label>
   </div>
 
-  <h1>ICI Wifi Access Voucher Generator</h1>
+  <h1>Guest WiFi Access</h1>
   <p class="subhead">Generate a voucher code for a guest in a few seconds.</p>
 
   <div class="panel">
@@ -442,8 +442,8 @@ INDEX_HTML = r"""<!DOCTYPE html>
           <div class="quota-row" id="quotaRow">
             <input type="number" id="byteQuotaValue" min="0" placeholder="e.g. 3000">
             <select id="byteQuotaUnit">
-              <option value="MB">MB</option>
-              <option value="GB" selected>GB</option>
+              <option value="MB" selected>MB</option>
+              <option value="GB">GB</option>
             </select>
           </div>
           <div class="checkline">
