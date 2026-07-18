@@ -401,7 +401,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
 
         <div class="field">
           <label for="name">Requested by / guest name</label>
-          <input type="text" id="name" name="name" placeholder="e.g. Front Desk — Room 214" maxlength="200">
+          <input type="text" id="name" name="name" placeholder="e.g. Conference" maxlength="200">
         </div>
 
         <div class="row2">
