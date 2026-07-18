@@ -13,7 +13,7 @@ Required Vercel environment variables (Project Settings -> Environment Variables
 """
 
 import os
-from typing import Optional
+from typing import Optional, Union
 
 import requests
 from fastapi import FastAPI, HTTPException, Query
@@ -52,7 +52,7 @@ class VoucherRequest(BaseModel):
     expiration_minutes: int
     down_limit_kbps: Optional[int] = None
     up_limit_kbps: Optional[int] = None
-    byte_quota: str
+    byte_quota: Union[str, int, float]
     one_time: bool
 
 
