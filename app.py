@@ -383,7 +383,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
 
 <div class="page">
   <div class="topbar">
-    <div class="eyebrow"><span class="dot"></span> Network Access Desk</div>
+    <div class="eyebrow"><span class="dot"></span> ICI Network Access Dashboard</div>
     <label class="theme-switch" for="themeToggle" aria-label="Toggle dark mode">
       <input type="checkbox" id="themeToggle">
       <span class="switch-track"></span>
@@ -391,7 +391,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
     </label>
   </div>
 
-  <h1>Guest WiFi Access</h1>
+  <h1>ICI Wifi Access Voucher Generator</h1>
   <p class="subhead">Generate a voucher code for a guest in a few seconds.</p>
 
   <div class="panel">
