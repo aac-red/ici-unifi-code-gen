@@ -392,7 +392,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
   </div>
 
   <h1>ICI WiFi Voucher Generator</h1>
-  <p class="subhead">Generate a voucher code for a guest in a few seconds.</p>
+  <p class="subhead">This app is for testing purposes only. It may be updated without prior notice. Please contact AAC if you encounter any errors.</p>
 
   <div class="panel">
 
